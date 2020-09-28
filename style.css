@@ -106,8 +106,9 @@ input, select {
 * {
 	margin: 0;
 	padding: 0;
-*/
 }
+*/
+
 /* some new fonts
 font-family: 'Allura', cursive; - Miraż
 font-family: 'Lobster', cursive; - Salon Fryzjerski
@@ -126,19 +127,17 @@ header	{
 
 header .header-brand {
 	font-family: 'Lobster', cursive;
-	font-size 24px;
+	font-size: 24px;
 	font-weight: 600;
 	color: #111;
 }
-header .header-brand p {
+header .header-brand b {
 	font-family: 'Allura', cursive;
-	font-size 24px;
-	font-weight: 1200;
+	font-size: 24px;
+	font-weight: 900;
 	}
 
-main {
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 
 
