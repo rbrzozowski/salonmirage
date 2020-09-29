@@ -225,7 +225,11 @@ header .header-cases {
 
 /*FOOTER*/
 
-
+footer	{
+	width: calc(100% - 80px);
+	padding: 40px 40px;
+	background-color: #111;
+}
 
 /*
 .wrapper {
