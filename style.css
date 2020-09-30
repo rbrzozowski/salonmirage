@@ -154,18 +154,28 @@ header nav ul li {
 /*display: inline-block;*/
 float: left;
 list-style: none;
-padding: 0 14px;
+padding: 0 16px;
 }
 
 header nav ul li a {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #111;
 	text-transform: uppercase;
 }
 
 header .header-cases {
 	display: none;
+}
+
+@media	only screen and (max-width: 320px) {
+	header nav ul li {
+		padding: 0 10px 0 10px;
+		}
+		
+	header nav ul li a {
+			font-size: 12px;
+		}
 }
 
 @media	only screen and (min-width: 1000px) {
@@ -264,6 +274,23 @@ header .header-cases {
 	text-transform: uppercase;
 }
 
+@media	only screen and (max-width: 320px) {
+	.index-banner h2 {
+		font-size: 45px;
+		font-weight: 600;
+		line-height: 60px;
+	}
+	
+	.index-banner h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.index-links div h3 {
+		font-size: 24px;
+	}
+}
+
 @media	only screen and (min-width: 1000px) {
 	.wrapper {
 		width: 1000px;
@@ -345,6 +372,12 @@ footer ul li a {
 .footer-sm img {
 	width: 100%;
 	margin-bottom: 10px;
+}
+
+@media	only screen and (max-width: 320px) {
+	footer ul {
+		padding-left: 0px;
+	}
 }
 
 @media	only screen and (min-width: 1000px) {
