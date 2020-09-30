@@ -154,14 +154,14 @@ header nav ul li {
 /*display: inline-block;*/
 float: left;
 list-style: none;
-padding: 0 16px;
+padding: 0 14px;
 }
 
 header nav ul li a {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	color: #111;
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 header .header-cases {
