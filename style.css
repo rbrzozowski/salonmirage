@@ -339,6 +339,44 @@ header .header-cases {
 	}
 }
 
+/*CASES*/
+
+.cases-links	{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.cases-links h2	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	font-style: normal;
+	color: #111;
+	text-transform: uppercase;
+}
+
+.cases-links .cases-link	{
+	float: left;
+	width: 230px;
+	height: 230px;
+	margin: 20px 10px 0;
+	background-color: #e3e3e3;
+}
+
+.cases-links .cases-link p	{
+	padding-top: 45%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*CONTACT ME*/
+
+
 /*FOOTER*/
 
 footer {
