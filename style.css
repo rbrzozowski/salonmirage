@@ -367,7 +367,7 @@ footer ul li a {
 	line-height: 40px;
 }
 
-.footer-links-tips {
+.footer-links-cases {
 	display: none;
 	text-transform: capitalize;
 }
@@ -389,7 +389,7 @@ footer ul li a {
 }
 
 @media	only screen and (min-width: 1000px) {
-	.footer-links-tips {
+	.footer-links-cases {
 		display: block;
 	}
 
